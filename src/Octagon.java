@@ -4,7 +4,7 @@ import org.jointheleague.graphical.robot.Robot;
 
 public class Octagon {
 	public static void main(String[] args) {
-		int 
+		 
 		String answer = JOptionPane.showInputDialog("why shape would you like me to draw");
 		if (answer.equalsIgnoreCase("octagon")) {
 
