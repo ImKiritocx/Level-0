@@ -24,6 +24,9 @@ public class AnimalFarm {
 		else if(answer.equalsIgnoreCase("duck")){
 			playQuack();
 		}
+		else if(answer.equalsIgnoreCase("llama")){
+			playLlama();
+		}
 		else if(answer.equalsIgnoreCase("dog")){
 			playWoof();
 		}
@@ -41,12 +44,15 @@ public class AnimalFarm {
 	void playWoof() {
 		playNoise(woofFile);
 	}
-
-	  String quackFile = "/Users/workshop/Google Drive/league-sounds/quack.wav";
-	String mooFile = "/Users/workshop/Google Drive/league-sounds/moo.wav";
-	String woofFile = "/Users/workshop/Google Drive/league-sounds/woof.wav";
-	String meowFile = "/Users/workshop/Google Drive/league-sounds/meow.wav";
-	String llamaFile = "/Users/workshop/Google Drive/league-sounds/llama.wav";
+	
+	void playLlama() {
+		playNoise(llamaFile);
+	}
+	  String quackFile = "/Users/league/Google Drive/league-sounds/quack.wav";
+	String mooFile = "/Users/league/Google Drive/league-sounds/moo.wav";
+	String woofFile = "/Users/league/Google Drive/league-sounds/woof.wav";
+	String meowFile = "/Users/league/Google Drive/league-sounds/meow.wav";
+	String llamaFile = "/Users/league/Google Drive/league-sounds/llama.wav";
 
 
 	/* Ignore this stuff */

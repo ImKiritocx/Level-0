@@ -12,7 +12,7 @@ public class TortoiseColorChooser {
 	public static void main(String[] args) {
 		Robot Tortoise = new Robot();
 		Tortoise.penDown();
-		Tortoise.changeRobot("/Users/workshop/Desktop/Level-0/src/ghettobart");
+		Tortoise.changeRobot("/Users/league/Desktop/Level-0/src/ghettobart");
 		// 3. ask the user what color they would like the tortoise to draw
 
 		for (int i = 0; i < 100; i++) {
@@ -38,6 +38,7 @@ public class TortoiseColorChooser {
 
 			// 2. set the pen width to 10
 			Tortoise.setPenWidth(10);
+			Tortoise.setSpeed(10);
 			// 1. make the tortoise draw a shape (this will take more than one
 			// line
 			// of code)
